@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stockpots &amp; Rondeaus | Hestan</title>
+<!-- BreadcrumbList (breadcrumb rec) + FAQPage (FAQ rec) schema -->
+<script type="application/ld+json" id="schema-static">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"https://hestanculinary.com/"},
+  {"@type":"ListItem","position":2,"name":"Cookware","item":"https://hestanculinary.com/collections/cookware"},
+  {"@type":"ListItem","position":3,"name":"Stockpots & Rondeaus"}]},
+ {"@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"What is the difference between a stockpot and a rondeau?","acceptedAnswer":{"@type":"Answer","text":"A stockpot is tall and narrow, so liquid evaporates slowly, which makes it ideal for stock, pasta and soup. A rondeau is wide and shallow with two loop handles, giving more surface area for searing and braising, and it moves easily from stovetop to oven."}},
+  {"@type":"Question","name":"What size stockpot should I buy?","acceptedAnswer":{"@type":"Answer","text":"An 8-quart stockpot covers most households: a pound of pasta, a pot of chili or soup for six. Choose 12 quarts for stock made from whole bones or for cooking for a crowd, and 5 to 6 quarts for everyday soups and grains."}},
+  {"@type":"Question","name":"Are Hestan stockpots dishwasher safe?","acceptedAnswer":{"@type":"Answer","text":"NanoBond pieces have rims sealed in stainless steel and are dishwasher safe. Check the care tab on each product page for the other collections."}},
+  {"@type":"Question","name":"Do Hestan stockpots work on induction?","acceptedAnswer":{"@type":"Answer","text":"Yes. NanoBond, ProBond Luxe and CopperBond Aura are induction compatible. Check the product page for Commercial Clad and TITUM pieces."}},
+  {"@type":"Question","name":"Which collection is best for braising?","acceptedAnswer":{"@type":"Answer","text":"For braising, choose a rondeau. CopperBond Aura gives the fastest, most precise heat response; NanoBond adds a harder, stain-resistant titanium surface that handles long simmers and the oven."}},
+  {"@type":"Question","name":"What warranty comes with Hestan cookware?","acceptedAnswer":{"@type":"Answer","text":"Hestan cookware carries a lifetime warranty against defects, and purchases from hestanculinary.com include a 45-day money-back guarantee."}}]}
+]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f3ee;--bg-soft:#efece5;--ink:#1c1c1c;--muted:#6b6b6b;--line:#dcd8cf;
+  --orange:#f26a21;--orange-dark:#d9561a;--orange-soft:#fde4d6;--star:#f5a623;--pink:#ff5fc4;
+  --serif:'Playfair Display',Georgia,'Times New Roman',serif;
+  --sans:'Montserrat','Helvetica Neue',Arial,sans-serif;
+  --wrap:1320px;--gutter:clamp(16px,3vw,40px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:var(--gutter)}
+.stars{color:var(--star);letter-spacing:1px;font-size:13px;line-height:1}
+svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--ink);background:#fff;color:var(--ink);font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;padding:14px 30px;text-decoration:none;transition:.2s}
+.btn:hover{background:var(--ink);color:#fff}
+.btn-orange{background:var(--orange);border-color:var(--orange);color:#fff}
+.btn-orange:hover{background:var(--orange-dark);border-color:var(--orange-dark)}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+
+/* Promo + header */
+.promo{background:var(--bg);font-size:12px}
+.promo .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:30px;flex-wrap:wrap}
+.promo nav{display:flex;gap:26px}
+.promo nav a{text-decoration:underline;text-underline-offset:3px}
+header.site{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
+.hdr{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;min-height:64px;gap:16px}
+.search{display:flex;align-items:center;border-bottom:1px solid #999;max-width:260px;padding:4px 0}
+.search input{border:0;font:inherit;font-size:12px;flex:1;min-width:0;background:none;outline:none;color:var(--ink)}
+.search input::placeholder{color:#888;text-decoration:underline}
+.mark{color:var(--orange);display:flex}
+.mark svg{width:34px;height:34px}
+.util{display:flex;justify-content:flex-end;align-items:center;gap:14px;font-size:11.5px;font-weight:600}
+.util a{text-decoration:none}
+.flag{width:16px;height:16px;border-radius:50%;background:repeating-linear-gradient(#c8102e 0 2px,#fff 2px 4px);position:relative;overflow:hidden;display:inline-block;vertical-align:-3px}
+.flag::before{content:"";position:absolute;left:0;top:0;width:8px;height:8px;background:#3c3b6e}
+.cart{position:relative;display:inline-flex}
+.cart b{position:absolute;top:-6px;right:-7px;background:var(--orange);color:#fff;font-size:9px;width:15px;height:15px;border-radius:50%;display:grid;place-items:center}
+.mainnav{display:flex;justify-content:center;gap:clamp(18px,2.6vw,36px);padding-bottom:12px}
+.mainnav a{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+.mainnav a:hover{color:var(--orange)}
+.burger{display:none;background:none;border:0;padding:4px;color:var(--ink)}
+
+/* Hero */
+.hero{position:relative;background:#111}
+.hero img{width:100%;aspect-ratio:840/392;object-fit:cover;max-height:720px}
+.hero .hit{position:absolute;left:3%;bottom:6.5%;width:23%;height:11%}
+
+/* Collection tiles */
+.tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));overflow:hidden}
+.tile{position:relative;display:block;aspect-ratio:1/0.72;overflow:hidden;text-decoration:none}
+.tile img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.tile:hover img{transform:scale(1.05)}
+.tile::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.18)}
+.tile span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:2;color:#fff;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;text-align:center;border:1px solid rgba(255,255,255,.9);padding:9px 16px;white-space:nowrap}
+.tile span::after{content:"";display:block;width:40px;height:2px;background:#fff;margin:8px auto 0}
+.browse{text-align:center;font-size:10.5px;font-weight:700;letter-spacing:.22em;padding:14px 0 18px;text-transform:uppercase}
+.browse a{text-decoration:none;display:inline-flex;flex-direction:column;align-items:center;gap:2px}
+
+/* Collection banner */
+.cbanner{position:relative;background:#f2f1ee;overflow:hidden}
+.cbanner > img{width:100%;aspect-ratio:800/348;object-fit:cover;object-position:right center;min-height:320px}
+.cbanner .txt{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding-inline:var(--gutter);max-width:min(620px,58%)}
+.rv-line{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--muted);margin-bottom:22px}
+.rv-line .stars{color:var(--orange);font-size:14px}
+.rv-line b{color:var(--ink);font-weight:700}
+.rv-line a{color:var(--ink);text-underline-offset:3px}
+.cbanner .eyebrow{color:var(--ink);font-size:10.5px}
+.cbanner h2{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3.2vw,44px);line-height:1.12;margin:6px 0 10px}
+.cbanner .cap{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin:0 0 26px;max-width:380px;line-height:1.55}
+.cbanner .btn{align-self:flex-start}
+.need{position:absolute;right:3%;top:50%;transform:translateY(-50%);background:var(--pink);color:#1c1c1c;font-size:clamp(12px,1.5vw,20px);font-weight:500;letter-spacing:.04em;padding:clamp(8px,1.3vw,16px) clamp(10px,1.6vw,22px);z-index:2;white-space:nowrap}
+
+/* Product rows + cards */
+.prow{position:relative;background:linear-gradient(to bottom,#fff 0,var(--bg) 100%);padding-block:22px 34px}
+.track{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 36px)/3.4);gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}
+.track::-webkit-scrollbar{display:none}
+.pcard{scroll-snap-align:start;text-decoration:none;display:block}
+.pcard .img{position:relative;background:#fff;overflow:hidden}
+.pcard .img img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+.tag{position:absolute;top:10px;right:10px;background:var(--orange-dark);color:#fff;font-size:9.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px}
+.wish{position:absolute;top:10px;right:10px;width:26px;height:26px;border-radius:50%;background:#fff;display:grid;place-items:center;border:0;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.wish svg{width:14px;height:14px}
+.pcard .brand{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin:10px 0 4px}
+.pcard .brand span{color:var(--muted);font-weight:500}
+.pcard h3{font-family:var(--serif);font-weight:400;font-size:clamp(15px,1.4vw,19px);line-height:1.25;margin:0 0 6px}
+.pcard .sizes{font-size:11px;color:var(--muted);margin:-2px 0 6px}
+.price{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+.price .now{color:var(--orange);font-weight:600;font-size:14px}
+.price .from{font-size:10.5px;color:var(--muted);font-weight:500}
+.price .was{color:var(--muted);text-decoration:line-through;font-size:12px}
+.badge{background:var(--orange-soft);color:var(--orange-dark);font-size:9.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:2px 6px}
+.rating{display:flex;align-items:center;gap:6px;font-size:10.5px;color:var(--muted)}
+.rating b{color:var(--ink)}
+.arrow{width:38px;height:38px;border-radius:50%;background:#fff;border:0;display:grid;place-items:center;box-shadow:0 1px 5px rgba(0,0,0,.18);color:var(--ink)}
+.arrow svg{width:16px;height:16px}
+.prow .arrow{position:absolute;top:calc(22px + 14%);z-index:2}
+.prow .arrow.prev{left:10px}.prow .arrow.next{right:10px}
+
+/* Quiz */
+.quiz{position:relative;background:#f5f3ee;overflow:hidden}
+.quiz > img{width:100%;aspect-ratio:800/139;object-fit:cover;object-position:right center;min-height:220px}
+.quiz .txt{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding-inline:var(--gutter);max-width:640px}
+.quiz .eyebrow{color:var(--orange);font-size:10.5px}
+.quiz h2{font-family:var(--serif);font-weight:400;font-size:clamp(24px,2.8vw,38px);margin:4px 0 8px;line-height:1.15}
+.quiz p{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin:0 0 18px;max-width:430px;line-height:1.55}
+.quiz .btn{align-self:flex-start;padding:13px 46px}
+.quiz .rec-new p{text-transform:none;letter-spacing:0;font-weight:500;font-size:13px;max-width:460px}
+.quiz .btns{display:flex;gap:10px;flex-wrap:wrap}
+.quiz .btns .btn{padding:13px 28px}
+
+/* All products (old) */
+.all{padding-block:56px 64px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 14px}
+.promo-tile{position:relative;overflow:hidden;display:block;min-height:260px}
+.promo-tile img{width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0}
+.promo-tile.span2{grid-column:span 2}
+.full{grid-column:1 / -1;margin-inline:calc(var(--gutter) * -1)}
+.full img{width:100%;height:auto}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:44px}
+.duo a{position:relative;display:block;overflow:hidden}
+.duo img{width:100%;aspect-ratio:800/620;object-fit:cover;transition:transform .4s}
+.duo a:hover img{transform:scale(1.03)}
+.duo .shop{position:absolute;right:16px;bottom:16px;color:#fff;font-size:11px;font-weight:700;letter-spacing:.18em;display:flex;align-items:center;gap:8px}
+.duo .shop i{width:24px;height:24px;border:1.5px solid #fff;border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:12px}
+
+/* ===== Recommendations: view switching ===== */
+body.view-before .rec-new{display:none!important}
+body:not(.view-before) .rec-old{display:none!important}
+.rec-gap{display:none}
+body.view-before.nt-on .rec-gap{display:flex;align-items:center;min-height:30px;margin:10px var(--gutter);font-size:11px;color:var(--orange-dark);letter-spacing:.06em;padding-left:10px}
+#all-products,#reviews,#faq{scroll-margin-top:120px}
+
+/* REC 1 breadcrumb */
+.crumbs{font-size:12px;color:var(--muted);padding-block:14px;display:flex;flex-wrap:wrap;align-items:center;row-gap:4px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.crumbs a:hover{color:var(--orange)}
+.crumbs .sep{margin:0 8px;color:#b5b1a8}
+.crumbs [aria-current]{color:var(--ink);font-weight:600}
+
+/* REC 2 intro */
+.intro{padding-block:34px 30px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(20px,4vw,60px);align-items:end}
+.intro .eyebrow{color:var(--orange)}
+.intro h1{font-family:var(--serif);font-weight:400;font-size:clamp(32px,4vw,52px);line-height:1.08;margin:6px 0 0}
+.intro p{font-size:14.5px;line-height:1.75;margin:0;color:#3a3a3a;max-width:620px}
+
+/* REC 3 advantages */
+.adv{background:var(--bg);padding-block:44px}
+.adv h2{font-family:var(--serif);font-weight:400;font-size:clamp(24px,2.6vw,32px);margin:4px 0 24px}
+.advgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+.advgrid .ico{width:34px;height:34px;border-radius:50%;border:1px solid var(--orange);color:var(--orange);display:grid;place-items:center;font-size:15px;margin-bottom:10px}
+.advgrid h3{font-size:13px;font-weight:700;margin:0 0 6px}
+.advgrid p{font-size:12.5px;line-height:1.6;margin:0 0 8px;color:#444}
+.advgrid a{font-size:11.5px;font-weight:600;color:var(--orange-dark);text-underline-offset:3px}
+
+/* REC 5 compare */
+.compare{padding-block:56px 20px}
+.compare h2,.sec-h{font-family:var(--serif);font-weight:400;font-size:clamp(26px,3vw,38px);margin:4px 0 8px}
+.compare .sub{color:var(--muted);margin:0 0 22px;max-width:640px}
+.tbl{overflow-x:auto;border:1px solid var(--line)}
+.tbl table{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
+.tbl th,.tbl td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.tbl thead th{background:var(--ink);color:#fff;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+.tbl tbody th{font-weight:600;background:var(--bg);width:150px}
+.tbl tr:last-child td,.tbl tr:last-child th{border-bottom:0}
+.tbl a{color:var(--orange-dark);font-weight:600;text-underline-offset:3px}
+.tbc{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.06em;color:#8e2f20;background:#fbeeeb;padding:1px 6px;border-radius:3px}
+.note{font-size:11.5px;color:var(--muted);margin-top:8px}
+
+/* REC 6/7 new product listing */
+.listing{padding-block:56px 64px}
+.listing .sec-h{margin-bottom:22px}
+.plp-body{display:grid;grid-template-columns:230px minmax(0,1fr);gap:clamp(20px,3vw,36px);align-items:start}
+.rail{position:sticky;top:120px;font-size:13px}
+.rail h3{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 6px}
+.rail h3 button{background:none;border:0;font-size:11px;text-decoration:underline;color:var(--muted);letter-spacing:0;text-transform:none}
+.rail fieldset{border:0;border-top:1px solid var(--line);margin:0;padding:14px 0 10px}
+.rail legend{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:0;margin-bottom:8px;float:left;width:100%}
+.rail label{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;clear:both}
+.rail label span{flex:1}
+.rail label small{color:var(--muted)}
+.rail input{accent-color:var(--orange);width:15px;height:15px;margin:0}
+.rail label.off{opacity:.45}
+.rail-toggle{display:none}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:12px}
+.toolbar .count{font-size:13px;font-weight:600}
+.toolbar select{font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);background:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;min-height:0}
+.chips button{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:4px 10px;font-size:11.5px}
+.chips button::after{content:" ×";color:var(--muted)}
+.ngrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 14px}
+.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line)}
+.quote-after{margin-top:44px;margin-inline:calc(var(--gutter) * -1)}
+
+/* REC 8 reviews */
+.reviews{padding-block:64px 40px;border-top:1px solid var(--line)}
+.rv-sum{display:grid;grid-template-columns:190px minmax(0,1fr) 260px;gap:28px;align-items:center;background:var(--bg);padding:24px 28px;margin:22px 0 20px}
+.rv-score{text-align:center;border-right:1px solid var(--line);padding-right:24px}
+.rv-score .big{font-family:var(--serif);font-size:52px;line-height:1}
+.rv-score .stars{font-size:18px;color:var(--orange);margin:6px 0 4px}
+.rv-score .cnt{font-size:12px;color:var(--muted)}
+.rv-ai .lbl{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:6px}
+.rv-ai .lbl small{font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);margin-left:6px}
+.rv-ai p{font-size:14px;line-height:1.65;margin:0 0 12px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{background:#fff;border:1px solid var(--line);border-radius:20px;padding:3px 12px;font-size:12px}
+.by-coll{border-left:1px solid var(--line);padding-left:24px;font-size:12px}
+.by-coll div{display:flex;justify-content:space-between;gap:10px;padding:4px 0}
+.by-coll b{font-weight:600}
+.rv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.rv-card{border:1px solid var(--line);background:#fff;padding:18px;display:flex;flex-direction:column}
+.rv-card .stars{color:var(--orange);font-size:14px}
+.rv-card h3{font-size:14px;font-weight:600;margin:8px 0 6px}
+.rv-card p{font-size:13px;line-height:1.6;color:#555;flex:1;margin:0 0 14px}
+.rv-meta{font-size:11.5px;color:var(--muted);display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:10px}
+.rv-meta b{color:var(--ink);font-size:12.5px}
+.center{text-align:center;margin-top:24px}
+
+/* REC 9 copy */
+.seo{background:var(--bg);padding-block:60px}
+.seo .cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px)}
+.seo h2{font-family:var(--serif);font-weight:400;font-size:clamp(20px,2vw,25px);margin:0 0 10px;line-height:1.25}
+.seo h2:not(:first-child){margin-top:30px}
+.seo p{font-size:14px;line-height:1.8;margin:0 0 12px;color:#333}
+.seo a{color:var(--ink);text-decoration-color:var(--orange);text-underline-offset:3px;font-weight:600}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.pills a{border:1px solid var(--line);background:#fff;border-radius:20px;padding:6px 14px;font-size:12.5px;font-weight:500;text-decoration:none}
+.pills a:hover{border-color:var(--orange);color:var(--orange-dark)}
+
+/* REC 10 learn */
+.learn{padding-block:60px 20px}
+.lgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:20px}
+.lgrid a{text-decoration:none;border:1px solid var(--line);display:flex;flex-direction:column;background:#fff}
+.lgrid img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.lgrid .b{padding:14px 16px 18px}
+.lgrid .eyebrow{color:var(--orange);font-size:10px}
+.lgrid h3{font-family:var(--serif);font-weight:400;font-size:17px;line-height:1.3;margin:6px 0 6px}
+.lgrid p{font-size:12.5px;color:var(--muted);margin:0}
+.lgrid a:hover h3{color:var(--orange-dark)}
+
+/* REC 11 faq */
+.faq{padding-block:50px}
+.faq .list{max-width:880px;margin-top:14px;border-top:1px solid var(--orange-dark)}
+.faq details{border-bottom:1px solid var(--orange-dark)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;padding:16px 4px;font-size:15px;font-weight:500}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--orange);font-weight:600;font-size:18px;line-height:1}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 4px 18px;font-size:14px;line-height:1.75;color:#444;max-width:75ch}
+
+/* REC 12 visit */
+.visit{padding-bottom:60px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel{padding:28px;border:1px solid var(--line)}
+.panel.dark{background:#262626;color:#fff;border-color:#262626}
+.panel .eyebrow{color:var(--orange)}
+.panel h3{font-family:var(--serif);font-weight:400;font-size:clamp(20px,2vw,26px);margin:8px 0 8px;line-height:1.25}
+.panel p{font-size:13.5px;margin:0 0 18px;color:inherit;opacity:.85;max-width:440px}
+
+/* Notes / highlight engine */
+.nt-bar{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:1000;display:flex;align-items:center;gap:12px;background:#2b2b2b;color:#fff;border-radius:30px;padding:6px 8px 6px 6px;box-shadow:0 8px 28px rgba(0,0,0,.25);font:600 12px var(--sans)}
+.nt-seg{display:flex;background:#444;border-radius:20px;padding:2px}
+.nt-seg button{border:0;background:none;color:#ccc;font:600 11.5px var(--sans);padding:6px 12px;border-radius:18px;letter-spacing:.04em}
+.nt-seg button[aria-pressed="true"]{background:#fff;color:var(--ink)}
+.nt-sw{display:flex;align-items:center;gap:8px;border:0;background:none;color:#fff;font:600 12px var(--sans);padding:4px 6px}
+.nt-sw i{width:34px;height:18px;border-radius:10px;background:#6d7175;position:relative;transition:background .2s}
+.nt-sw i::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:left .2s}
+body.nt-on .nt-sw i{background:var(--orange)}
+body.nt-on .nt-sw i::after{left:18px}
+.nt-layer{position:absolute;left:0;top:0;width:0;height:0;z-index:900;display:none}
+body.nt-on .nt-layer{display:block}
+.nt-pin{position:absolute;width:28px;height:28px;border-radius:50%;background:var(--orange);color:#fff;border:2px solid #fff;font:700 12px var(--sans);box-shadow:0 3px 10px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;padding:0}
+.nt-pin:hover,.nt-pin.on{background:#2b2b2b}
+/* highlight borders are drawn as boxes in .nt-layer (z-index 900) so no element can cover them */
+.nt-box{position:absolute;border:2px dashed rgba(242,106,33,.6);pointer-events:none;box-sizing:border-box}
+.nt-box.on{border-style:solid;border-color:#f26a21;background:rgba(242,106,33,.06)}
+.nt-pop{position:fixed;z-index:1001;width:380px;max-width:calc(100vw - 20px);background:#fff;border:1px solid var(--line);border-radius:6px;box-shadow:0 16px 40px rgba(0,0,0,.18);font:13px/1.55 var(--sans);color:#46494c;display:none}
+.nt-pop.show{display:block}
+.nt-pop h5{margin:0;padding:12px 14px;font-size:13px;color:var(--ink);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}
+.nt-pop h5 button{background:none;border:0;font-size:18px;line-height:1;color:var(--muted)}
+.nt-row{padding:10px 14px}
+.nt-row + .nt-row{border-top:1px solid #f0f0f0}
+.nt-lbl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
+.nt-cur{background:#fbf6f4}.nt-cur .nt-lbl{color:#b4462b}
+.nt-pro{background:#f2f7f4}.nt-pro .nt-lbl{color:#355c4f}
+.nt-why{background:#f1f6fa}.nt-why .nt-lbl{color:#1f5f8b}
+@media print{.nt-bar,.nt-layer,.nt-pop{display:none!important}}
+
+/* SEO guidelines panel */
+.nt-guide{border:0;background:#444;color:#fff;font:600 12px var(--sans);padding:6px 12px;border-radius:18px}
+.nt-guide:hover,.nt-guide[aria-expanded="true"]{background:var(--orange)}
+.sg-scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:1002;display:none}
+.sg-panel{position:fixed;top:0;right:0;height:100%;width:min(460px,100%);background:#fff;z-index:1003;transform:translateX(100%);transition:transform .3s ease;display:flex;flex-direction:column;box-shadow:-8px 0 30px rgba(0,0,0,.18);font:13px/1.5 var(--sans);color:#46494c}
+body.sg-open .sg-scrim{display:block}
+body.sg-open .sg-panel{transform:none}
+.sg-head{padding:18px 20px 14px;border-bottom:1px solid var(--line)}
+.sg-head h2{font-family:var(--serif);font-weight:400;font-size:22px;color:var(--ink);margin:0 0 4px;display:flex;justify-content:space-between;align-items:center}
+.sg-head h2 button{background:none;border:0;font-size:24px;line-height:1;color:var(--muted);width:34px;height:34px;border-radius:50%;display:grid;place-items:center;padding:0}
+.sg-head h2 button:hover{background:#f1efea}
+.sg-head h2 button:focus{outline:none}
+.sg-head h2 button:focus-visible{outline:2px solid var(--orange);outline-offset:1px}
+.sg-head p{margin:0;font-size:12px;color:var(--muted)}
+.sg-prog{display:flex;align-items:center;gap:10px;margin-top:12px;font-size:12px;font-weight:600;color:var(--ink)}
+.sg-prog .track{flex:1;height:5px;background:#ece9e3;border-radius:5px;overflow:hidden}
+.sg-prog .track i{display:block;height:100%;width:0;background:var(--orange);transition:width .25s}
+.sg-body{overflow:auto;padding:6px 20px 16px;flex:1}
+.sg-cat{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin:18px 0 4px}
+.sg-item{display:grid;grid-template-columns:20px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #f0eee9;cursor:pointer}
+.sg-item input{width:17px;height:17px;margin:1px 0 0;accent-color:var(--orange);cursor:pointer}
+.sg-item b{display:block;color:var(--ink);font-size:13px;font-weight:600}
+.sg-item code{font-size:11.5px;background:#f3f1ec;padding:1px 5px;border-radius:3px;color:#7a3a12}
+.sg-done{font-size:12px;color:var(--muted);margin-top:3px}
+.sg-done em{font-style:normal;font-weight:600;color:#355c4f}
+.sg-item.checked b{text-decoration:line-through;color:var(--muted)}
+.sg-item.checked .sg-done{opacity:.6}
+.sg-foot{display:flex;gap:10px;align-items:center;padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line)}
+.sg-foot .btn{padding:10px 16px;font-size:10.5px}
+.sg-foot .msg{font-size:11.5px;color:#355c4f;margin-left:auto}
+.sg-copy{position:absolute;left:-9999px;top:0;width:1px;height:1px}
+@media (max-width:600px){
+  .sg-panel{top:auto;bottom:0;height:85vh;width:100%;border-radius:14px 14px 0 0;transform:translateY(100%)}
+  .nt-guide{padding:6px 10px}
+  .nt-sw span{display:none}
+}
+@media print{.sg-panel,.sg-scrim{display:none!important}}
+
+
+
+.nt-pin[hidden]{display:none}
+
+/* Mobile nav */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:80;opacity:0;pointer-events:none;transition:.25s}
+.mnav{position:fixed;inset:0 auto 0 0;width:min(320px,85%);background:#fff;z-index:90;transform:translateX(-100%);transition:transform .3s;padding:20px var(--gutter);display:flex;flex-direction:column;gap:18px}
+.mnav a{text-decoration:none;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.mnav button{align-self:flex-end;background:none;border:0;font-size:24px}
+body.nav-open .mnav{transform:none}
+body.nav-open .scrim{opacity:1;pointer-events:auto}
+
+@media (max-width:1100px){
+  .track{grid-auto-columns:calc((100% - 24px)/2.6)}
+  .advgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .lgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ngrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rv-sum{grid-template-columns:170px minmax(0,1fr)}
+  .by-coll{grid-column:1/-1;border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:12px;display:grid;grid-template-columns:repeat(2,1fr);column-gap:24px}
+}
+@media (max-width:900px){
+  .mainnav,.util .txt{display:none}
+  .burger{display:inline-flex}
+  .hdr{grid-template-columns:auto 1fr auto}
+  .search{display:none}
+  .mark{justify-self:center}
+  .tiles{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:42%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .tile{scroll-snap-align:start}
+  .cbanner,.quiz{display:flex;flex-direction:column-reverse}
+  .cbanner .txt,.quiz .txt{position:static;max-width:100%;padding-block:28px 24px}
+  .cbanner > img{min-height:0;aspect-ratio:16/9;object-position:85% center}
+  .need{top:auto;bottom:16px;transform:none}
+  .quiz > img{min-height:0;aspect-ratio:16/7;object-position:80% center}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .promo-tile{aspect-ratio:1/1.35}
+  .promo-tile.span2{aspect-ratio:auto;min-height:300px}
+  .prow .arrow{display:none}
+  .intro{grid-template-columns:1fr;align-items:start}
+  .plp-body{grid-template-columns:1fr}
+  .rail{position:static;display:none;border:1px solid var(--line);padding:14px 16px;margin-bottom:16px}
+  .rail.open{display:block}
+  .rail-toggle{display:inline-flex;padding:9px 16px}
+  .rv-sum{grid-template-columns:1fr;padding:20px}
+  .rv-score{border-right:0;padding-right:0}
+  .rv-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .seo .cols,.split{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .promo .wrap{justify-content:center;text-align:center;padding-block:6px}
+  .promo nav{gap:16px}
+  .tiles{grid-auto-columns:64%}
+  .cbanner > img{aspect-ratio:4/3;object-position:82% center}
+  .track{grid-auto-columns:72%}
+  .duo{grid-template-columns:1fr}
+  .grid{gap:22px 10px}
+  .advgrid{grid-template-columns:1fr 1fr}
+  .lgrid,.rv-grid{grid-template-columns:1fr}
+  .ngrid{gap:22px 10px}
+  .by-coll{grid-template-columns:1fr}
+  .nt-bar{right:10px;left:10px;justify-content:space-between}
+  .nt-pop{left:0!important;right:0;top:auto!important;bottom:0;width:100%;max-width:none;border-radius:12px 12px 0 0;max-height:70vh;overflow:auto}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.2L20 7H6.3"/><circle cx="9" cy="19" r="1.4"/><circle cx="17" cy="19" r="1.4"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-mark" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M11 5c6 9 6 21 0 30M29 5c-6 9-6 21 0 30M20 3v34M8 20h24"/></g></symbol>
+</svg>
+
+<div class="promo"><div class="wrap">
+  <span>Invest in Innovation Event on Now. Save 20% Sitewide</span>
+  <nav aria-label="Utility"><a href="#">Product Registration</a><a href="#">Returns</a><a href="#">Order Status</a></nav>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <div class="hdr">
+    <div>
+      <button class="burger" aria-label="Open menu" data-nav-open><svg class="i"><use href="#i-menu"/></svg></button>
+      <label class="search"><input type="search" placeholder="Hestan grills vs. Aspire grills..." aria-label="Search"><svg class="i" style="width:16px;height:16px"><use href="#i-search"/></svg></label>
+    </div>
+    <a href="#" class="mark" aria-label="Hestan home"><svg><use href="#i-mark"/></svg></a>
+    <div class="util">
+      <a href="#" class="txt">Where to Buy</a><a href="#" class="txt">Sign In / Join</a>
+      <span class="txt">USD$ / EN <span class="flag" aria-hidden="true"></span></span>
+      <a href="#" aria-label="Wishlist"><svg class="i"><use href="#i-heart"/></svg></a>
+      <a href="#" class="cart" aria-label="Cart, 0 items"><svg class="i"><use href="#i-cart"/></svg><b>0</b></a>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Main"><a href="#">Culinary</a><a href="#">Appliances</a><a href="#">Vineyards</a><a href="#">Napa Restaurant</a></nav>
+</div></header>
+
+<div class="scrim" data-nav-close></div>
+<nav class="mnav" aria-label="Mobile"><button aria-label="Close menu" data-nav-close>×</button><a href="#">Culinary</a><a href="#">Appliances</a><a href="#">Vineyards</a><a href="#">Napa Restaurant</a><a href="#">Where to Buy</a><a href="#">Sign In / Join</a></nav>
+
+<main>
+<!-- REC 1 -->
+<div class="wrap rec-new" data-rec="1"><nav class="crumbs" aria-label="Breadcrumb"><a href="#">Home</a><span class="sep">›</span><a href="#">Cookware</a><span class="sep">›</span><span aria-current="page">Stockpots &amp; Rondeaus</span></nav></div>
+<div class="rec-old rec-gap" data-rec="1">No breadcrumb in the Canva design</div>
+
+<section class="hero">
+  <img src="images/plp/hero-stockpots.jpg" alt="Shop by chef-designed vessel: Stockpots, Soup Pots &amp; Rondeaus" fetchpriority="high">
+  <a href="#" class="hit" aria-label="Learn more about Hestan stockpots and rondeaus"></a>
+</section>
+
+<!-- REC 2 -->
+<section class="wrap intro rec-new" data-rec="2">
+  <div><div class="eyebrow">Shop by Chef-Designed Vessel</div><h1>Stockpots &amp; Rondeaus</h1></div>
+  <p>Simmer stock for hours, braise short ribs or boil pasta for a crowd. Hestan stockpots and rondeaus are built on tri-ply ProCore™ aluminum for even heat up the walls, in titanium-reinforced NanoBond®, Italian copper and polished stainless steel. Every piece is induction ready and backed by a lifetime warranty.</p>
+</section>
+<div class="rec-old rec-gap" data-rec="2">No H1 or crawlable intro: the hero copy is part of the image</div>
+
+<!-- Collection tiles (as in the Canva design) -->
+<nav class="tiles" aria-label="Shop by collection">
+  <a href="#nanobond" class="tile"><img src="images/plp/tile-nanobond.jpg" alt=""><span>NanoBond®</span></a>
+  <a href="#copperbond" class="tile"><img src="images/plp/tile-copperbond.jpg" alt=""><span>CopperBond Aura</span></a>
+  <a href="#probond" class="tile"><img src="images/plp/tile-probond.jpg" alt=""><span>ProBond Luxe®</span></a>
+  <a href="#commercial-clad" class="tile"><img src="images/plp/tile-commercial-clad.jpg" alt=""><span>Thomas Keller<br>Commercial Clad</span></a>
+  <a href="#" class="tile"><img src="images/plp/tile-titum.jpg" alt=""><span>TITUM®</span></a>
+</nav>
+<div class="browse"><a href="#nanobond">Browse by Collection <svg class="i" style="width:14px;height:14px"><use href="#i-down"/></svg></a></div>
+
+<!-- REC 3 -->
+<section class="adv rec-new" data-rec="3">
+  <div class="wrap">
+    <div class="eyebrow" style="color:var(--orange)">Why Hestan</div>
+    <h2>Built for the Long Simmer</h2>
+    <div class="advgrid">
+      <div><div class="ico">◆</div><h3>ProCore™ Even Heat</h3><p>A pure aluminum core runs up the walls, so stocks and sauces simmer without scorching on the bottom.</p><a href="#">How tri-ply clad works →</a></div>
+      <div><div class="ico">◻</div><h3>Sealed Rims</h3><p>NanoBond rims are sealed in stainless steel, so moisture can’t get between the layers and the pot is dishwasher safe.</p><a href="#">NanoBond care guide →</a></div>
+      <div><div class="ico">◎</div><h3>Flush Rivets</h3><p>Rivets sit flush inside the pot, leaving no crevices for food to collect when you stir or clean.</p><a href="#">Cleaning stainless cookware →</a></div>
+      <div><div class="ico">⊕</div><h3>Induction Ready</h3><p>Magnetic stainless exteriors work on gas, electric and induction cooktops.</p><a href="#">Cookware for induction →</a></div>
+      <div><div class="ico">∞</div><h3>Lifetime Warranty</h3><p>Every piece is covered for life against defects, plus a 45-day money-back guarantee.</p><a href="#">Hestan warranty terms →</a></div>
+    </div>
+  </div>
+</section>
+
+<div id="collections"></div>
+
+<!-- REC 5 -->
+<section class="wrap compare rec-new" data-rec="5" id="compare">
+  <div class="eyebrow" style="color:var(--orange)">Compare Collections</div>
+  <h2>Which Stockpot Collection Is Right for You?</h2>
+  <p class="sub">The same chef-designed shapes, in five materials. Here’s how they differ.</p>
+  <div class="tbl"><table id="cmp"></table></div>
+  <p class="note"><span class="tbc">TBC</span> = to be confirmed by Hestan before launch.</p>
+</section>
+
+<!-- Old all-products grid (Canva) -->
+<div class="rec-old rec-gap" data-rec="6">No filter in the Canva design</div>
+<section class="all rec-old">
+  <div class="wrap">
+    <div class="grid" id="grid-old"></div>
+  </div>
+</section>
+
+<!-- REC 6/7: new listing -->
+<section class="listing rec-new" id="all-products">
+  <div class="wrap">
+    <h2 class="sec-h">Shop All Stockpots &amp; Rondeaus</h2>
+    <div class="plp-body">
+      <aside class="rail" id="rail" aria-label="Filters" data-rec="6">
+        <h3>Filter <button type="button" id="clear">Clear all</button></h3>
+        <div id="facets"></div>
+      </aside>
+      <div>
+        <div class="toolbar" data-rec="7">
+          <button type="button" class="btn rail-toggle" id="railToggle" aria-expanded="false" aria-controls="rail">Filter</button>
+          <span class="count" id="count" aria-live="polite"></span>
+          <label style="font-size:13px">Sort by&nbsp;
+            <select id="sort">
+              <option value="featured">Featured</option><option value="best">Best selling</option><option value="new">Newest</option>
+              <option value="low">Price: low to high</option><option value="high">Price: high to low</option>
+            </select>
+          </label>
+        </div>
+        <div class="chips" id="chips"></div>
+        <div class="ngrid" id="ngrid"></div>
+      </div>
+    </div>
+    <div class="quote-after"><img src="images/plp/quote-accarino.jpg" alt="Made in Italy. &quot;If you go to the farmer's market and you care about selecting the best produce, why would you not have the best cookware?&quot; Chef Matthew Accarino, Mattina, San Francisco, CA" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="wrap" style="padding-bottom:20px">
+  <div class="duo">
+    <a href="#"><img src="images/plp/promo-vineyards.jpg" alt="Voted Best Wine by Robb Report: Hestan Vineyards 2021 Cabernet" loading="lazy"></a>
+    <a href="#"><img src="images/plp/promo-appliances.jpg" alt="Save 25% off sets &amp; skillets: Indoor Appliances" loading="lazy"><span class="shop">SHOP <i>›</i></span></a>
+  </div>
+</section>
+
+<!-- REC 8 -->
+<section class="wrap reviews rec-new" data-rec="8" id="reviews">
+  <div class="eyebrow" style="color:var(--orange)">Community</div>
+  <h2 class="sec-h">Why Home Cooks Love Hestan Stockpots</h2>
+  <div class="rv-sum">
+    <div class="rv-score"><div class="big" id="rv-avg">4.9</div><div class="stars">★★★★★</div><div class="cnt" id="rv-cnt"></div></div>
+    <div class="rv-ai"><div class="lbl">✦ Customers say <small>AI-generated from customer reviews</small></div>
+      <p>Cooks praise how evenly these pots heat up the sides, so long simmers don’t scorch. Reviewers mention the solid lids, comfortable loop handles and how easily they clean, and many say the rondeau has become their go-to for braising.</p>
+      <div class="tags"><span>Even Heating</span><span>Build Quality</span><span>Lids &amp; Handles</span><span>Easy Cleanup</span><span>Size</span></div></div>
+    <div class="by-coll" id="by-coll"></div>
+  </div>
+  <div class="rv-grid">
+    <article class="rv-card"><div class="stars">★★★★★</div><h3>Stock without scorching</h3><p>I simmer chicken stock for six hours and nothing catches on the bottom. The heat really does climb the walls.</p><div class="rv-meta"><b>Karen L.</b><span>NanoBond Titanium Stockpot with Lid</span></div></article>
+    <article class="rv-card"><div class="stars">★★★★★</div><h3>My braising pan now</h3><p>Sears short ribs beautifully, then straight into the oven. Wide enough that nothing steams.</p><div class="rv-meta"><b>Marcus T.</b><span>CopperBond Aura Rondeau with Lid, 5-qt</span></div></article>
+    <article class="rv-card"><div class="stars">★★★★★</div><h3>Pasta night for eight</h3><p>The 8-quart is the perfect size for two pounds of pasta. Lid fits snugly and the handles stay cool enough.</p><div class="rv-meta"><b>Jenna R.</b><span>ProBond Luxe Stockpot with Lid, 8-qt</span></div></article>
+    <article class="rv-card"><div class="stars">★★★★★</div><h3>Cleans up like new</h3><p>Tomato sauce, chili, curry: nothing stains it. Goes in the dishwasher and comes out shining.</p><div class="rv-meta"><b>Omar S.</b><span>NanoBond Titanium Rondeau with Lid, 6-qt</span></div></article>
+    <article class="rv-card"><div class="stars">★★★★★</div><h3>Worth the copper</h3><p>Responds instantly when I turn the heat down. Gorgeous on the stove, too.</p><div class="rv-meta"><b>Elise M.</b><span>CopperBond Aura Stockpot with Lid</span></div></article>
+    <article class="rv-card"><div class="stars">★★★★☆</div><h3>Heavy-duty workhorse</h3><p>Feels like restaurant gear. A bit heavy when full, but that’s the point.</p><div class="rv-meta"><b>Dan W.</b><span>Thomas Keller Commercial Clad Stockpot, 12-qt</span></div></article>
+  </div>
+  <div class="center"><a class="btn" href="#">Read All Reviews</a></div>
+</section>
+
+<!-- REC 9 -->
+<section class="seo rec-new" data-rec="9">
+  <div class="wrap cols">
+    <div>
+      <h2>What’s the Difference Between a Stockpot and a Rondeau?</h2>
+      <p>A <strong>stockpot</strong> is tall and narrow. Its height keeps evaporation slow, which is what you want for stock, soup, chili and boiling pasta. A <strong>rondeau</strong> is wide and shallow with two loop handles. All that surface area lets you sear meat without crowding, reduce sauces quickly and braise in the oven. Many cooks own one of each: the stockpot for liquids, the rondeau for browning and braising.</p>
+      <h2>Which Size Stockpot Do I Need?</h2>
+      <p>An <a href="#">8-quart stockpot</a> covers most households: a pound of pasta, a pot of chili or soup for six. Go up to <a href="#">12 quarts</a> for stock from whole bones, canning or cooking for a crowd. For everyday soups, grains and smaller batches, a 5- to 6-quart soup pot or <a href="#">rondeau</a> is easier to lift and store.</p>
+    </div>
+    <div>
+      <h2>Copper, Titanium or Stainless: Which Is Best?</h2>
+      <p><a href="#">NanoBond®</a> adds thousands of titanium nano-layers to stainless steel, so it resists scratches, stains and salt pitting and can go in the dishwasher. <a href="#">CopperBond® Aura</a> uses 1.5mm copper for the fastest, most precise heat response, ideal for delicate sauces and braises. <a href="#">ProBond Luxe®</a> is classic polished tri-ply stainless, the best value for everyday cooking. All three share Hestan’s ProCore™ aluminum core for even heat.</p>
+      <h2>Explore Stockpots &amp; Rondeaus</h2>
+      <div class="pills"><a href="#">Titanium Stockpots</a><a href="#">Copper Stockpots</a><a href="#">Stainless Steel Stockpots</a><a href="#">Rondeaus &amp; Braisers</a><a href="#">Soup Pots</a><a href="#">Cookware Sets</a><a href="#">Care &amp; Cleaning</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- REC 10 -->
+<section class="wrap learn rec-new" data-rec="10">
+  <div class="eyebrow" style="color:var(--orange)">Learn &amp; Cook</div>
+  <h2 class="sec-h">From the Hestan Kitchen</h2>
+  <div class="lgrid">
+    <a href="#"><img src="images/plp/pb-1.jpg" alt="" loading="lazy"><div class="b"><div class="eyebrow">Buying Guide</div><h3>Stockpot Size Guide: How Many Quarts Do You Need?</h3><p>Match the pot to the way you cook, from soups to stock for a crowd.</p></div></a>
+    <a href="#"><img src="images/recipe/more-2.jpg" alt="" loading="lazy"><div class="b"><div class="eyebrow">How-To</div><h3>How to Braise in a Rondeau</h3><p>Sear, deglaze and finish low and slow in the oven.</p></div></a>
+    <a href="#"><img src="images/plp/nb-2.jpg" alt="" loading="lazy"><div class="b"><div class="eyebrow">Comparison</div><h3>NanoBond vs ProBond Luxe vs CopperBond</h3><p>Surface, heat response, care and price, side by side.</p></div></a>
+    <a href="#"><img src="images/plp/cb-2.jpg" alt="" loading="lazy"><div class="b"><div class="eyebrow">Care &amp; Cleaning</div><h3>How to Clean and Care for a Copper Stockpot</h3><p>Keep copper bright and stainless spotless with a few habits.</p></div></a>
+  </div>
+</section>
+
+<!-- REC 11 -->
+<section class="wrap faq rec-new" data-rec="11" id="faq">
+  <h2 class="sec-h">Stockpots &amp; Rondeaus: Frequently Asked Questions</h2>
+  <div class="list" id="faq-list"></div>
+</section>
+
+<!-- REC 12 -->
+<section class="wrap visit rec-new" data-rec="12">
+  <div class="split">
+    <div class="panel dark"><div class="eyebrow">Hestan Chef’s Table™</div><h3>Earn 5% back on every stockpot</h3><p>Members earn Culinary Cash on qualifying purchases, plus early access to new collections.</p><a class="btn btn-orange" href="#">Join for $99/year</a></div>
+    <div class="panel"><div class="eyebrow">See It. Feel It.</div><h3>Lift a Hestan stockpot in person</h3><p>Visit Hestan Napa or one of 600+ authorized dealers to feel the weight and balance before you buy.</p><a class="btn" href="#">Find a Retailer</a></div>
+  </div>
+</section>
+</main>
+
+<script>
+(function(){
+  var $ = function(s){ return document.querySelector(s); };
+
+  // ---------- Canva (Before) card + data ----------
+  var NAMES = [
+    ['10-Piece Titanium Ultimate Cookware Set','$1,999.95','$2,390.00','Save $390.05'],
+    ['Titanium Skillets - Small (8.5-Inch)','$199.95','$300.00','Save $100.05'],
+    ['Titanium Skillets - Medium (11-Inch)','$350.00','',''],
+    ['Titanium Skillets - Large (12.5-Inch)','$450.00','','']
+  ];
+  function card(img, d, opts){
+    opts = opts || {};
+    return '<a href="#" class="pcard"><div class="img"><img src="'+img+'" alt="'+d[0]+'" loading="lazy">'+
+      (opts.tag ? '<span class="tag">'+opts.tag+'</span>' : '')+
+      (opts.wish ? '<button class="wish" type="button" aria-label="Add to wishlist"><svg class="i"><use href="#i-heart"/></svg></button>' : '')+
+      '</div><div class="brand">NanoBond <span>| Molecular Titanium</span></div><h3>'+d[0]+'</h3>'+
+      '<div class="price"><span class="now">'+d[1]+'</span>'+(d[2]?'<span class="was">'+d[2]+'</span>':'')+(d[3]?'<span class="badge">'+d[3]+'</span>':'')+'</div>'+
+      '<div class="rating"><span class="stars">★★★★★</span> 1,853 Reviews</div></a>';
+  }
+
+  // ---------- Product data for the filterable listing grid. Names, prices and ratings are illustrative placeholders. ----------
+  var COLL = {
+    nanobond:   {name:'NanoBond®', label:'Molecular Titanium', brand:'NanoBond'},
+    copperbond: {name:'CopperBond® Aura', label:'1.5mm Professional Copper', brand:'CopperBond'},
+    probond:    {name:'ProBond Luxe®', label:'Polished Clad Stainless', brand:'ProBond'},
+    commercial: {name:'Commercial Clad', label:'Thomas Keller', brand:'Commercial Clad'},
+    titum:      {name:'TITUM®', label:'Reinforced Nonstick', brand:'TITUM'}
+  };
+  var P = [
+    {id:1, c:'nanobond', v:'Rondeau', qt:6, n:'NanoBond Titanium Rondeau with Lid, 6-qt', img:'nb-1', p:500, was:560, r:4.9, rc:212, nw:6, tag:'Special Offer'},
+    {id:2, c:'nanobond', v:'Stockpot', qt:8, n:'NanoBond Titanium Stockpot with Lid', sizes:'8-qt · 12-qt', p:550, r:4.9, rc:268, nw:9},
+    {id:3, c:'nanobond', v:'Soup Pot', qt:6, n:'NanoBond Titanium Soup Pot with Lid, 6-qt', img:'nb-3', p:450, r:4.8, rc:74, nw:8},
+    {id:4, c:'nanobond', v:'Soup Pot', qt:5, n:'NanoBond Titanium Dutch Oven, 5-qt', img:'nb-4', p:570, r:4.9, rc:58, nw:3},
+    {id:5, c:'copperbond', v:'Rondeau', qt:5, n:'CopperBond Aura Rondeau with Lid, 5-qt', img:'cb-1', p:560, r:4.8, rc:46, nw:15},
+    {id:6, c:'copperbond', v:'Stockpot', qt:8, n:'CopperBond Aura Stockpot with Lid', sizes:'6-qt · 8-qt', img:'cb-2', p:620, r:4.8, rc:52, nw:16},
+    {id:7, c:'copperbond', v:'Rondeau', qt:3.5, n:'CopperBond Aura Braiser with Lid, 3.5-qt', img:'cb-3', p:480, was:540, r:4.7, rc:21, nw:14, tag:'Special Offer'},
+    {id:8, c:'copperbond', v:'Soup Pot', qt:6, n:'CopperBond Aura Soup Pot with Lid, 6-qt', img:'cb-4', p:600, r:4.9, rc:29, nw:13},
+    {id:9, c:'probond', v:'Stockpot', qt:8, n:'ProBond Luxe Stockpot with Lid, 8-qt', img:'pb-1', p:370, r:4.8, rc:166, nw:5},
+    {id:10, c:'probond', v:'Stockpot', qt:12, n:'ProBond Luxe Stockpot with Lid, 12-qt', img:'pb-2', p:420, r:4.8, rc:94, nw:4},
+    {id:11, c:'probond', v:'Rondeau', qt:6, n:'ProBond Luxe Rondeau with Lid, 6-qt', img:'pb-3', p:280, was:320, r:4.7, rc:83, nw:2, tag:'Special Offer'},
+    {id:12, c:'probond', v:'Soup Pot', qt:4, n:'ProBond Luxe Soup Pot with Lid, 4-qt', img:'pb-4', p:220, r:4.8, rc:46, nw:1},
+    {id:13, c:'commercial', v:'Stockpot', qt:12, n:'Thomas Keller Commercial Clad Stockpot, 12-qt', img:'tile-commercial-clad', p:260, r:4.9, rc:61, nw:7},
+    {id:14, c:'commercial', v:'Rondeau', qt:6, n:'Thomas Keller Commercial Clad Rondeau, 6-qt', img:'commercial-clad-2', p:230, r:4.9, rc:36, nw:10},
+    {id:15, c:'titum', v:'Soup Pot', qt:6, n:'TITUM Nonstick Soup Pot with Lid, 6-qt', img:'tile-titum', p:230, r:4.7, rc:40, nw:12}
+  ];
+  P.forEach(function(x){ if (!x.img) x.img = 'nb-2'; });
+  var fmt = function(v){ return '$' + v.toLocaleString('en-US'); };
+  function ncard(x){
+    var co = COLL[x.c];
+    return '<a href="#" class="pcard"><div class="img"><img src="images/plp/'+x.img+'.jpg" alt="'+x.n+'" loading="lazy" width="640" height="640">'+
+      (x.tag ? '<span class="tag">'+x.tag+'</span>' : '')+
+      '</div><div class="brand">'+co.brand+' <span>| '+co.label+'</span></div><h3>'+x.n+'</h3>'+
+      (x.sizes ? '<div class="sizes">'+x.sizes+'</div>' : '')+
+      '<div class="price">'+(x.sizes ? '<span class="from">From</span>' : '')+'<span class="now">'+fmt(x.p)+'</span>'+
+      (x.was ? '<span class="was">'+fmt(x.was)+'</span><span class="badge">Save '+fmt(x.was - x.p)+'</span>' : '')+'</div>'+
+      '<div class="rating"><span class="stars">★★★★★</span> <b>'+x.r.toFixed(1)+'</b> ('+x.rc+')</div></a>';
+  }
+  // per-collection rating rollups (used by the comparison table and reviews section)
+  var ROLL = {};
+  P.forEach(function(x){ var o = ROLL[x.c] = ROLL[x.c] || {n:0, s:0, from:Infinity}; o.n += x.rc; o.s += x.r * x.rc; o.from = Math.min(o.from, x.p); });
+  Object.keys(ROLL).forEach(function(k){ ROLL[k].avg = (ROLL[k].s / ROLL[k].n).toFixed(1); });
+  var TOTAL = P.reduce(function(a, x){ return a + x.rc; }, 0);
+  var AVG = (P.reduce(function(a, x){ return a + x.r * x.rc; }, 0) / TOTAL).toFixed(1);
+
+  // ---------- Collection banners + rows ----------
+  var SECTIONS = [
+    {id:'nanobond', k:'nanobond', eye:'Molecular Titanium', title:'NanoBond Titanium<br>Stockpots &amp; Rondeaus', cap:'This is a short, SEO-optimized caption about high heat, nano-layers &amp; ProCore', btn:'Why NanoBond', p:'nb'},
+    {id:'copperbond', k:'copperbond', eye:'1.5mm Professional Copper', title:'CopperBond Aura<br>Stockpots &amp; Rondeaus', cap:'This is a short, SEO-optimized caption about copper performance &amp; Italian made', btn:'Why CopperBond Aura', p:'cb'},
+    {id:'probond', k:'probond', eye:'Polished Clad Stainless Steel', title:'ProBond Luxe®<br>Stockpots &amp; Rondeaus', cap:'This is a short, SEO-optimized caption about polished clad &amp; ProCore technology', btn:'Why ProBond Luxe', p:'pb'},
+    {quiz:true},
+    {id:'commercial-clad', k:'commercial', eye:'Professional Clad Stainless Steel', title:'Thomas Keller<br>Commercial Clad', cap:'This is a short, SEO-optimized caption about chef-designed details &amp; ProCore technology', btn:'Why Commercial Clad', p:'tk'}
+  ];
+  document.getElementById('collections').innerHTML = SECTIONS.map(function(s){
+    if (s.quiz) return '<section class="quiz" data-rec="4"><img src="images/plp/quiz-banner.jpg" alt="" loading="lazy">'+
+      '<div class="txt rec-old"><div class="eyebrow">Let us help</div><h2>Cookware, Perfected. For You.</h2>'+
+      '<p>Answer a 60-second quiz to find the ideal cookware collection designed for the way you cook</p>'+
+      '<a href="#" class="btn btn-orange">Start Here</a></div>'+
+      '<div class="txt rec-new"><div class="eyebrow">Let us help</div><h2>Not sure which stockpot is right for you?</h2>'+
+      '<p>Answer a 60-second quiz and we’ll match you to the collection and size made for the way you cook, or ask a Cookware Concierge.</p>'+
+      '<div class="btns"><a href="#" class="btn btn-orange">Start the Quiz</a><a href="#" class="btn">Contact Concierge</a></div></div></section>';
+    var oldCards = [1,2,3,4].map(function(n, i){ return card('images/plp/'+s.p+'-'+n+'.jpg', NAMES[i]); }).join('');
+    return '<section class="cbanner" id="'+s.id+'"><img src="images/plp/banner-stacked-pots.jpg" alt="" loading="lazy">'+
+      '<div class="txt"><div class="rv-line"><span class="stars">★★★★★</span> Based on {{total_reviews}} reviews</div>'+
+      '<div class="eyebrow">'+s.eye+'</div><h2>'+s.title+'</h2><p class="cap">'+s.cap+'</p>'+
+      '<a href="#" class="btn">'+s.btn+'</a></div><span class="need">NEW IMAGE NEEDED</span></section>'+
+      '<div class="prow"><button class="arrow prev" type="button" data-dir="-1" aria-label="Previous"><svg class="i"><use href="#i-left"/></svg></button>'+
+      '<div class="track">'+oldCards+'</div>'+
+      '<button class="arrow next" type="button" data-dir="1" aria-label="Next"><svg class="i"><use href="#i-right"/></svg></button></div>';
+  }).join('');
+
+  // ---------- Old grid (Canva page 2) ----------
+  var IMG = ['images/g-hero.jpg','images/size-small.jpg','images/size-medium.jpg','images/size-large.jpg'], SET = NAMES[0];
+  function row(){ return card(IMG[0],SET,{tag:'Set Savings'}) + card(IMG[1],SET,{tag:'Special Offer'}) + card(IMG[2],SET,{wish:true}) + card(IMG[3],SET,{wish:true}); }
+  var g = row();
+  g += card(IMG[0],SET,{tag:'Set Savings'}) + card(IMG[1],SET,{tag:'Special Offer'}) + '<a href="#" class="promo-tile"><img src="images/plp/promo-20-off.jpg" alt="20% off: Invest in Innovation Event. Shop &amp; Save" loading="lazy"></a>' + card(IMG[3],SET);
+  g += card(IMG[0],SET,{tag:'Set Savings'}) + card(IMG[1],SET,{tag:'Special Offer'}) + card(IMG[2],SET) + card(IMG[3],SET);
+  g += '<a href="#" class="promo-tile span2"><img src="images/plp/promo-probond-forged.jpg" alt="ProBond® Forged™: Save 25% off sets &amp; skillets. Discover more" loading="lazy"></a>' + card(IMG[2],SET) + card(IMG[3],SET);
+  g += row();
+  g += '<div class="full"><img src="images/plp/quote-accarino.jpg" alt="Made in Italy. Chef Matthew Accarino quote" loading="lazy"></div>';
+  g += row();
+  document.getElementById('grid-old').innerHTML = g;
+
+  // ---------- REC 5: comparison table ----------
+  var TBC = '<span class="tbc">TBC</span>';
+  var CMP = [
+    ['Best for', 'Low-maintenance stainless that resists scratches and stains', 'Fastest, most precise heat response', 'Classic polished stainless, best value', 'Professional-weight everyday workhorse', 'Easy release and quick cleanup'],
+    ['Cooking surface', 'Titanium-reinforced 18/10 stainless', 'Stainless interior, 1.5mm copper', 'Polished 18/10 stainless', '18/10 stainless', 'Reinforced nonstick'],
+    ['Oven safe to', '1,050°F', TBC, '600°F', TBC, TBC],
+    ['Dishwasher safe', 'Yes, sealed rims', TBC, 'Yes', TBC, TBC],
+    ['Induction', 'Yes', 'Yes', 'Yes', TBC, TBC]
+  ];
+  var keys = ['nanobond','copperbond','probond','commercial','titum'];
+  var t = '<thead><tr><th>Collection</th>' + keys.map(function(k){ return '<th>'+COLL[k].name+'</th>'; }).join('') + '</tr></thead><tbody>';
+  t += CMP.map(function(r){ return '<tr><th scope="row">'+r[0]+'</th>'+r.slice(1).map(function(c){ return '<td>'+c+'</td>'; }).join('')+'</tr>'; }).join('');
+  t += '<tr><th scope="row">Stockpots from</th>' + keys.map(function(k){ return '<td>'+fmt(ROLL[k].from)+'</td>'; }).join('') + '</tr>';
+  t += '<tr><th scope="row">Rating</th>' + keys.map(function(k){ return '<td>★ '+ROLL[k].avg+' ('+ROLL[k].n+')</td>'; }).join('') + '</tr>';
+  t += '<tr><th scope="row"></th>' + keys.map(function(k){ return '<td><a href="#all-products" data-coll="'+k+'">Shop '+COLL[k].name+' →</a></td>'; }).join('') + '</tr></tbody>';
+  $('#cmp').innerHTML = t;
+
+  // ---------- REC 6/7: filters, sort, grid ----------
+  var CAP = [['Under 5 qt', function(q){ return q < 5; }], ['5–8 qt', function(q){ return q >= 5 && q <= 8; }], ['10 qt +', function(q){ return q >= 10; }]];
+  var PRICE = [['Under $300', function(p){ return p < 300; }], ['$300–$500', function(p){ return p >= 300 && p <= 500; }], ['$500 +', function(p){ return p > 500; }]];
+  var FACETS = [
+    {key:'c', name:'Collection', opts:keys.map(function(k){ return [k, COLL[k].name]; }), test:function(x, v){ return x.c === v; }},
+    {key:'v', name:'Vessel', opts:[['Stockpot','Stockpots'],['Rondeau','Rondeaus & Braisers'],['Soup Pot','Soup Pots & Dutch Ovens']], test:function(x, v){ return x.v === v; }},
+    {key:'q', name:'Capacity', opts:CAP.map(function(c, i){ return [String(i), c[0]]; }), test:function(x, v){ return CAP[+v][1](x.qt); }},
+    {key:'p', name:'Price', opts:PRICE.map(function(c, i){ return [String(i), c[0]]; }), test:function(x, v){ return PRICE[+v][1](x.p); }},
+    {key:'o', name:'Offers', opts:[['sale','On sale']], test:function(x){ return !!x.was; }}
+  ];
+  var state = {c:[], v:[], q:[], p:[], o:[]};
+  function matches(x, skip){
+    return FACETS.every(function(f){
+      if (f.key === skip || !state[f.key].length) return true;
+      return state[f.key].some(function(v){ return f.test(x, v); });
+    });
+  }
+  $('#facets').innerHTML = FACETS.map(function(f){
+    return '<fieldset><legend>'+f.name+'</legend>'+f.opts.map(function(o){
+      return '<label><input type="checkbox" data-f="'+f.key+'" value="'+o[0]+'"><span>'+o[1]+'</span><small data-n></small></label>';
+    }).join('')+'</fieldset>';
+  }).join('');
+  function render(){
+    var list = P.filter(function(x){ return matches(x); });
+    var s = $('#sort').value;
+    list.sort(function(a, b){
+      if (s === 'best') return b.rc - a.rc;
+      if (s === 'new') return b.nw - a.nw;
+      if (s === 'low') return a.p - b.p;
+      if (s === 'high') return b.p - a.p;
+      return a.id - b.id;
+    });
+    var html = list.map(ncard);
+    var plain = s === 'featured' && !FACETS.some(function(f){ return state[f.key].length; });
+    if (plain && html.length > 4) html.splice(4, 0, '<a href="#" class="promo-tile"><img src="images/plp/promo-20-off.jpg" alt="20% off: Invest in Innovation Event. Shop &amp; Save" loading="lazy"></a>');
+    if (plain && html.length > 10) html.splice(10, 0, '<a href="#" class="promo-tile span2"><img src="images/plp/promo-probond-forged.jpg" alt="ProBond® Forged™: Save 25% off sets &amp; skillets. Discover more" loading="lazy"></a>');
+    $('#ngrid').innerHTML = html.length ? html.join('') : '<div class="empty">No pieces match these filters. <button type="button" class="btn" id="clear2" style="margin-left:8px;padding:8px 14px">Clear filters</button></div>';
+    $('#count').textContent = list.length + (list.length === 1 ? ' product' : ' products');
+    document.querySelectorAll('#facets input').forEach(function(i){
+      var f = FACETS.filter(function(z){ return z.key === i.dataset.f; })[0];
+      var n = P.filter(function(x){ return matches(x, f.key) && f.test(x, i.value); }).length;
+      i.checked = state[f.key].indexOf(i.value) > -1;
+      i.parentElement.querySelector('[data-n]').textContent = '(' + n + ')';
+      i.parentElement.classList.toggle('off', !n && !i.checked);
+    });
+    var chips = [];
+    FACETS.forEach(function(f){ state[f.key].forEach(function(v){
+      var label = f.opts.filter(function(o){ return o[0] === v; })[0][1];
+      chips.push('<button type="button" data-f="'+f.key+'" data-v="'+v+'" aria-label="Remove filter '+label+'">'+label+'</button>');
+    }); });
+    $('#chips').innerHTML = chips.join('');
+    var c2 = $('#clear2'); if (c2) c2.onclick = clearAll;
+  }
+  function clearAll(){ Object.keys(state).forEach(function(k){ state[k] = []; }); render(); }
+  $('#facets').addEventListener('change', function(e){
+    var i = e.target, arr = state[i.dataset.f], at = arr.indexOf(i.value);
+    if (i.checked && at < 0) arr.push(i.value); if (!i.checked && at > -1) arr.splice(at, 1);
+    render();
+  });
+  $('#chips').addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    var arr = state[b.dataset.f]; arr.splice(arr.indexOf(b.dataset.v), 1); render();
+  });
+  $('#clear').addEventListener('click', clearAll);
+  $('#sort').addEventListener('change', render);
+  $('#railToggle').addEventListener('click', function(){ var o = $('#rail').classList.toggle('open'); this.setAttribute('aria-expanded', o); });
+  // banner review links and compare links filter by collection
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('[data-coll]'); if (!a) return;
+    state.c = [a.dataset.coll]; render();
+  });
+  render();
+
+  // ---------- REC 8: review rollup by collection ----------
+  $('#rv-avg').textContent = AVG;
+  $('#rv-cnt').textContent = TOTAL.toLocaleString('en-US') + ' reviews';
+  $('#by-coll').innerHTML = keys.map(function(k){ return '<div><span>'+COLL[k].name+'</span><b>★ '+ROLL[k].avg+' <small style="color:var(--muted);font-weight:400">('+ROLL[k].n+')</small></b></div>'; }).join('');
+
+  // ---------- REC 11: FAQ rendered from the same schema (keeps visible answers and markup identical) ----------
+  var faq = JSON.parse(document.getElementById('schema-static').textContent)['@graph'][1].mainEntity;
+  $('#faq-list').innerHTML = faq.map(function(q, i){ return '<details'+(i===0?' open':'')+'><summary>'+q.name+'</summary><div class="ans">'+q.acceptedAnswer.text+'</div></details>'; }).join('');
+
+
+  // ---------- Carousels, wishlist, nav ----------
+  document.querySelectorAll('.prow').forEach(function(p){
+    p.querySelectorAll('.arrow').forEach(function(b){
+      b.addEventListener('click', function(){
+        var tr = Array.prototype.filter.call(p.querySelectorAll('.track'), function(x){ return x.getClientRects().length; })[0];
+        tr.scrollBy({left:(tr.firstElementChild.getBoundingClientRect().width + 12) * +b.dataset.dir, behavior:'smooth'});
+      });
+    });
+  });
+  document.querySelectorAll('.wish').forEach(function(b){ b.addEventListener('click', function(e){ e.preventDefault(); b.style.color = b.style.color ? '' : '#f26a21'; }); });
+  var body = document.body;
+  document.querySelector('[data-nav-open]').addEventListener('click', function(){ body.classList.add('nav-open'); });
+  document.querySelectorAll('[data-nav-close]').forEach(function(el){ el.addEventListener('click', function(){ body.classList.remove('nav-open'); }); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') body.classList.remove('nav-open'); });
+})();
+</script>
+
+<script>
+window.PLP_RECS = [
+  {n:1, title:'Breadcrumb', canva:'No breadcrumb.', rec:'Home › Cookware › Stockpots & Rondeaus above the hero, with BreadcrumbList schema.', why:'Google can show the path in results, and the links pass authority up to Cookware. Shoppers landing from search can step back to browse.'},
+  {n:2, title:'Real H1 and visible intro', canva:'The hero copy ("Stockpots, Soup Pots & Rondeaus" plus a "25 word SEO intro" placeholder) is part of the image.', rec:'A real H1 "Stockpots & Rondeaus" with a ~55-word intro directly under the hero.', why:'Text near the top of the page is weighted most for relevance. Google cannot read words inside an image, so today the page has no on-page topic signal.'},
+  {n:3, title:'Advantages strip', canva:'No product benefits on the collection page (they appear only on the PDP).', rec:'Benefits specific to stockpots (ProCore heat, sealed rims, flush rivets, induction, lifetime warranty), each linking to a descriptive Learn article.', why:'Answers "why Hestan?" before the grid, and builds topic-cluster links with descriptive anchor text.'},
+  {n:4, title:'Quiz + Concierge band', canva:'"Cookware, Perfected. For You." with a single START HERE button and generic copy.', rec:'Stockpot-specific headline and copy, with Start the Quiz and Contact Concierge side by side.', why:'Gives undecided shoppers two routes to help where they are deciding, rather than only in the menu.'},
+  {n:5, title:'Collection comparison', canva:'Four separate banners with placeholder captions; no way to compare collections side by side.', rec:'A table comparing NanoBond, CopperBond Aura, ProBond Luxe, Commercial Clad and TITUM: best for, surface, oven limit, dishwasher, induction, starting price and rating. Unknown values are marked TBC.', why:'Comparison content is highly quotable for AI search and helps undecided shoppers choose. The banners stay as designed.'},
+  {n:6, title:'Filter rail', canva:'No filter.', rec:'Filters for Collection, Vessel, Capacity, Price and Offers, with live counts, active-filter chips and Clear all. Collapses behind a Filter button on mobile.', why:'Lets shoppers narrow 15+ pots quickly. Filtered URLs must be canonicalised or noindexed so they do not create thousands of thin, duplicate pages.'},
+  {n:7, title:'Product count and sort', canva:'No count or sort options.', rec:'"15 products" plus sort by Featured, Best selling, Newest and Price.', why:'A standard PLP pattern that reduces pogo-sticking back to search results.'},
+  {n:8, title:'Collection reviews', canva:'No reviews on the collection page.', rec:'Rating summary, a "Customers say" summary, ratings by collection and six review cards. Review text is illustrative.', why:'Fresh user language on the page and social proof before shoppers click into a product. Do not mark up these as category-level review schema; Google only shows review snippets for individual products.'},
+  {n:9, title:'Collection copy', canva:'Only placeholder text ("This could be a 40-75 word SEO-optimized introduction…").', rec:'About 450 words under question-led H2s (stockpot vs rondeau, which size, copper vs titanium vs stainless), plus internal-link pills.', why:'Question headings match real searches and are easy for Google and AI engines to quote. Gives the page enough unique content to rank.'},
+  {n:10, title:'Learn articles', canva:'No links to articles.', rec:'Four related articles: size guide, braising how-to, collection comparison, copper care.', why:'Hub-and-spoke linking: the articles rank for informational searches and pass authority back to this page.'},
+  {n:11, title:'FAQ with schema', canva:'No FAQ.', rec:'Six stockpot questions in accordions. The visible answers are rendered from the same FAQPage schema, so they always match. Collection-specific claims need Hestan confirmation.', why:'Targets "People also ask" results and answers objections before shoppers leave.'},
+  {n:12, title:'Chef\'s Table and Where to Buy', canva:'No loyalty or retailer modules on the page (the Vineyards and Appliances promos stay).', rec:'Two panels: Chef\'s Table 5% back, and "Lift a Hestan stockpot in person" with Find a Retailer.', why:'Captures shoppers who want to touch before buying, supports local search, and promotes loyalty at the decision point.'}
+];
+window.PLP_TODO = [
+  ['Page structure', 'Exactly one <code>&lt;h1&gt;</code> naming the category', 'the H1 is real text (not in an image) and reads like "Stockpots &amp; Rondeaus".'],
+  ['Page structure', 'Heading levels in order: <code>h2</code> per section, <code>h3</code> for cards', 'no skipped levels and no headings used only for styling.'],
+  ['Page structure', 'Visible breadcrumb plus <code>BreadcrumbList</code> schema', 'both exist and list the same path.'],
+  ['Metadata', '<code>&lt;title&gt;</code> of 50–60 characters: Category + qualifier | Brand', 'e.g. "Stockpots &amp; Rondeaus: Titanium, Copper &amp; Stainless | Hestan".'],
+  ['Metadata', '<code>&lt;meta name="description"&gt;</code> of 140–160 characters', 'it names the range (materials, sizes) and one reason to buy.'],
+  ['Metadata', 'Self-referencing <code>&lt;link rel="canonical"&gt;</code>; filter, sort and tracking URLs canonicalise to the clean URL', '?sort= and ?filter= URLs point their canonical at the base category (or at an indexable sub-collection).'],
+  ['Metadata', 'Open Graph tags: <code>og:title</code>, <code>og:image</code>, <code>og:description</code>', 'a shared link shows the hero image and category name.'],
+  ['Structured data', '<code>CollectionPage</code> + <code>ItemList</code> schema', 'the ItemList contains every product on the page, in the same order, each with its PDP URL.'],
+  ['Structured data', '<code>FAQPage</code> schema only for questions with visible answers', 'every marked-up answer is readable on the page and matches word for word.'],
+  ['Structured data', 'No category-level <code>AggregateRating</code> markup', 'ratings are marked up on PDPs only; the collection page shows them without review schema.'],
+  ['Content', 'Unique intro (50–100 words) above the grid, longer copy below', 'the intro is in your own words and the lower copy answers real questions (size, material, care).'],
+  ['Content', 'Product cards rendered in the HTML with real names, prices and links', 'cards are present in the server response (not only built by JavaScript) and each links to its PDP with <code>&lt;a href&gt;</code>.'],
+  ['Faceted navigation', 'Sub-collection links are crawlable <code>&lt;a href&gt;</code> links', 'tiles such as NanoBond or Copper link to real URLs that can rank on their own.'],
+  ['Faceted navigation', 'Filters are crawl-safe', 'low-value filter combinations are noindexed or blocked, and only chosen facets get indexable URLs.'],
+  ['Faceted navigation', 'Pagination with real links', '<code>?page=2</code> pages are reachable through <code>&lt;a href&gt;</code> links (not infinite scroll only), and each page canonicalises to itself.'],
+  ['Images', 'Descriptive alt text, <code>width</code>/<code>height</code>, lazy-load below the fold', 'card images use the product name as alt, the hero is <code>fetchpriority="high"</code>, and grid images below the fold are <code>loading="lazy"</code>.'],
+  ['Links & performance', 'Internal links with descriptive anchor text, plus a footer', 'the page links to sub-collections, related categories and guides, and anchors say where they go.'],
+  ['Links & performance', 'Core Web Vitals and mobile: LCP < 2.5s, CLS < 0.1, INP < 200ms', 'PageSpeed Insights passes on the live URL, and filters work without horizontal scroll on mobile.']
+];
+</script>
+<!-- ============ RECOMMENDATION NOTES (toggle + pins) ============ -->
+<script>
+window.RECS = window.PLP_RECS;
+(function(){
+  var RECS = window.RECS, body = document.body;
+
+  var bar = document.createElement('div');
+  bar.className = 'nt-bar';
+  bar.innerHTML =
+    '<div class="nt-seg" role="group" aria-label="Page version">'+
+      '<button type="button" data-view="before" aria-pressed="false">Before</button>'+
+      '<button type="button" data-view="after" aria-pressed="true">After</button>'+
+    '</div>'+
+    '<button type="button" class="nt-sw" aria-pressed="false"><i></i><span>Highlights</span></button>';
+  body.appendChild(bar);
+  var layer = document.createElement('div'); layer.className = 'nt-layer'; body.appendChild(layer);
+  var pop = document.createElement('div'); pop.className = 'nt-pop'; pop.setAttribute('role','dialog'); body.appendChild(pop);
+
+  var items = RECS.map(function(r){
+    var pin = document.createElement('button');
+    pin.type = 'button'; pin.className = 'nt-pin'; pin.textContent = r.n;
+    pin.setAttribute('aria-label', 'Recommendation ' + r.n + ': ' + r.title);
+    layer.appendChild(pin);
+    var it = {r:r, pin:pin};
+    pin.addEventListener('click', function(e){ e.stopPropagation(); open(it); });
+    return it;
+  });
+  document.querySelectorAll('[data-rec]').forEach(function(el){ el.classList.add('nt-target'); });
+
+  // the visible element for a recommendation in the current view
+  function target(n){
+    var els = document.querySelectorAll('[data-rec="'+n+'"]');
+    for (var i = 0; i < els.length; i++) if (els[i].getClientRects().length) return els[i];
+    return null;
+  }
+
+  var cur = null;
+  function esc(s){ return s.replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+  function open(it){
+    if (cur === it) { close(); return; }
+    cur = it;
+    items.forEach(function(x){ x.pin.classList.toggle('on', x === it); });
+    pop.innerHTML = '<h5><span>'+it.r.n+'. '+esc(it.r.title)+'</span><button type="button" aria-label="Close">×</button></h5>'+
+      '<div class="nt-row nt-cur"><div class="nt-lbl">Canva design</div>'+esc(it.r.canva)+'</div>'+
+      '<div class="nt-row nt-pro"><div class="nt-lbl">Recommended</div>'+esc(it.r.rec)+'</div>'+
+      '<div class="nt-row nt-why"><div class="nt-lbl">Why (SEO / conversion)</div>'+esc(it.r.why)+'</div>';
+    pop.querySelector('button').onclick = close;
+    pop.classList.add('show'); layout(); place();
+  }
+  function close(){ cur = null; pop.classList.remove('show'); items.forEach(function(x){ x.pin.classList.remove('on'); }); layout(); }
+  function place(){
+    if (!cur) return;
+    if (innerWidth <= 600) { pop.style.left = ''; pop.style.top = ''; return; }
+    var r = cur.pin.getBoundingClientRect(), w = pop.offsetWidth, x = r.right - w, y = r.bottom + 8;
+    if (x < 10) x = 10; if (x + w > innerWidth - 10) x = innerWidth - w - 10;
+    var h = pop.offsetHeight; if (y + h > innerHeight - 10) y = Math.max(10, r.top - h - 8);
+    pop.style.left = x + 'px'; pop.style.top = y + 'px';
+  }
+  function layout(){
+    if (!body.classList.contains('nt-on')) return;
+    var cw = document.documentElement.clientWidth;
+    // highlight box for every visible [data-rec] element, drawn above everything in the pin layer
+    document.querySelectorAll('[data-rec]').forEach(function(el){
+      var b = el._ntBox;
+      if (!b) { b = el._ntBox = document.createElement('div'); b.className = 'nt-box'; layer.insertBefore(b, layer.firstChild); }
+      var vis = el.getClientRects().length > 0;
+      b.hidden = !vis;
+      b.classList.toggle('on', !!cur && el.dataset.rec == cur.r.n);
+      if (!vis) return;
+      var r = el.getBoundingClientRect();
+      var x1 = Math.max(0, r.left + scrollX - 6), x2 = Math.min(cw + scrollX, r.right + scrollX + 6), y1 = Math.max(0, r.top + scrollY - 6);
+      b.style.left = x1 + 'px'; b.style.top = y1 + 'px';
+      b.style.width = (x2 - x1) + 'px'; b.style.height = (r.bottom + scrollY + 6 - y1) + 'px';
+    });
+    items.forEach(function(it){
+      var el = target(it.r.n);
+      it.pin.hidden = !el;
+      if (!el) return;
+      var r = el.getBoundingClientRect();
+      var x = Math.min(Math.max(4, r.right + scrollX - 14), cw - 34);
+      var y = Math.max(4, r.top + scrollY - 14);
+      it.pin.style.left = x + 'px'; it.pin.style.top = y + 'px';
+    });
+    place();
+  }
+  var ticking = false;
+  function req(){ if (!ticking) { ticking = true; requestAnimationFrame(function(){ ticking = false; layout(); }); } }
+  addEventListener('scroll', req, {passive:true});
+  addEventListener('resize', req);
+  document.addEventListener('click', function(e){ if (cur && !pop.contains(e.target) && !bar.contains(e.target)) close(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && cur) close(); });
+  setInterval(req, 800);
+
+  var sw = bar.querySelector('.nt-sw');
+  sw.addEventListener('click', function(){
+    var on = body.classList.toggle('nt-on');
+    sw.setAttribute('aria-pressed', on);
+    if (!on) close();
+    layout();
+  });
+  bar.querySelectorAll('[data-view]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var before = b.dataset.view === 'before';
+      var keep = cur, el0 = keep && target(keep.r.n), top0 = el0 ? el0.getBoundingClientRect().top : 0;
+      body.classList.toggle('view-before', before);
+      bar.querySelectorAll('[data-view]').forEach(function(x){ x.setAttribute('aria-pressed', x === b); });
+      var el1 = keep && target(keep.r.n);
+      if (el0 && el1) {
+        // keep the selected recommendation at the same spot on screen while switching views
+        window.scrollTo({top: scrollY + el1.getBoundingClientRect().top - top0, behavior: 'instant'});
+        layout();
+      } else { close(); layout(); }
+    });
+  });
+
+  // Optional URL params for sharing a specific state: ?view=before&highlights=1
+  var q = new URLSearchParams(location.search);
+  if (q.get('view') === 'before') bar.querySelector('[data-view="before"]').click();
+  if (q.get('highlights') === '1') sw.click();
+  if (q.get('note')) { var it = items[+q.get('note') - 1]; if (it) setTimeout(function(){ layout(); open(it); }, 300); }
+})();
+</script>
+<!-- ============ PLP SEO TO-DO (general rules for developers) ============ -->
+<script>
+(function(){
+  var body = document.body;
+  var KEY = 'hestan-plp-seo-todo';
+
+  // [group, task (may contain <code>), done-when]
+  var TODO = window.PLP_TODO;
+
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e) { done = {}; }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(done)); } catch(e) {} }
+
+  var bar = document.querySelector('.nt-bar');
+  var btn = document.createElement('button');
+  btn.type = 'button'; btn.className = 'nt-guide'; btn.textContent = 'SEO To-Do';
+  btn.setAttribute('aria-expanded', 'false'); btn.setAttribute('aria-controls', 'sg-panel');
+  bar.appendChild(btn);
+  var scrim = document.createElement('div'); scrim.className = 'sg-scrim'; body.appendChild(scrim);
+  var panel = document.createElement('aside');
+  panel.className = 'sg-panel'; panel.id = 'sg-panel';
+  panel.setAttribute('role', 'dialog'); panel.setAttribute('aria-modal', 'true'); panel.setAttribute('aria-label', 'PLP SEO to-do list');
+  body.appendChild(panel);
+
+  var html = '<div class="sg-head"><h2>PLP SEO To-Do <button type="button" aria-label="Close">×</button></h2>'+
+    '<p>General SEO rules to implement on every collection page. Tick items as you build.</p>'+
+    '<div class="sg-prog"><span class="count"></span><span class="track"><i></i></span></div></div><div class="sg-body">';
+  var cat = '';
+  TODO.forEach(function(t, i){
+    if (t[0] !== cat) { cat = t[0]; html += '<div class="sg-cat">' + cat + '</div>'; }
+    html += '<label class="sg-item"><input type="checkbox" data-i="' + i + '"><span><b>' + (i + 1) + '. ' + t[1] + '</b>'+
+      '<span class="sg-done"><em>Done when:</em> ' + t[2] + '</span></span></label>';
+  });
+  html += '</div><div class="sg-foot"><button type="button" class="btn btn-black" data-copy>Copy as checklist</button>'+
+    '<button type="button" class="btn" data-reset>Reset</button><span class="msg" aria-live="polite"></span></div>';
+  panel.innerHTML = html;
+
+  var boxes = panel.querySelectorAll('input[type="checkbox"]');
+  var msg = panel.querySelector('.msg');
+  function sync(){
+    var n = 0;
+    boxes.forEach(function(b){
+      b.checked = !!done[b.dataset.i];
+      b.closest('.sg-item').classList.toggle('checked', b.checked);
+      if (b.checked) n++;
+    });
+    panel.querySelector('.count').textContent = n + ' / ' + TODO.length + ' done';
+    panel.querySelector('.track i').style.width = (n / TODO.length * 100) + '%';
+  }
+  boxes.forEach(function(b){
+    b.addEventListener('change', function(){
+      if (b.checked) done[b.dataset.i] = 1; else delete done[b.dataset.i];
+      save(); sync();
+    });
+  });
+  sync();
+
+  function plain(s){ return s.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&'); }
+  function markdown(){
+    var out = ['## PLP SEO To-Do', ''], c = '';
+    TODO.forEach(function(t, i){
+      if (t[0] !== c) { c = t[0]; out.push('', '### ' + c); }
+      out.push('- [' + (done[i] ? 'x' : ' ') + '] ' + plain(t[1]) + ' (Done when: ' + plain(t[2]) + ')');
+    });
+    return out.join('\n');
+  }
+  function flash(t){ msg.textContent = t; clearTimeout(flash.t); flash.t = setTimeout(function(){ msg.textContent = ''; }, 2500); }
+  panel.querySelector('[data-copy]').addEventListener('click', function(){
+    var text = markdown();
+    function fallback(){
+      var ta = document.createElement('textarea'); ta.className = 'sg-copy'; ta.value = text; panel.appendChild(ta);
+      ta.select(); var ok = false; try { ok = document.execCommand('copy'); } catch(e) {}
+      ta.remove(); flash(ok ? 'Copied' : 'Copy blocked by the browser');
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function(){ flash('Copied'); }, fallback);
+    else fallback();
+  });
+  panel.querySelector('[data-reset]').addEventListener('click', function(){ done = {}; save(); sync(); flash('Cleared'); });
+
+  function openG(){ body.classList.add('sg-open'); btn.setAttribute('aria-expanded', 'true'); panel.querySelector('.sg-head button').focus(); }
+  function closeG(){ body.classList.remove('sg-open'); btn.setAttribute('aria-expanded', 'false'); }
+  panel.querySelector('.sg-head button').addEventListener('click', closeG);
+  btn.addEventListener('click', function(e){ e.stopPropagation(); body.classList.contains('sg-open') ? closeG() : openG(); });
+  scrim.addEventListener('click', closeG);
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeG(); });
+  if (new URLSearchParams(location.search).get('guide') === '1') setTimeout(openG, 300);
+})();
+</script>
+</body>
+</html>
